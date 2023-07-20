@@ -684,25 +684,25 @@ var toc_info = {
           "header_type": "Chapter",
           "index_id": "72",
           "title": "Correction",
-          "url": "IMSIYUDT_Week_14.htm#Chapter-72"
+          "url": "IMSIYUDT_Week_13.htm#Chapter-72"
         },
         {
           "header_type": "Interlude",
           "index_id": "卌|||",
           "title": "Vocabulary",
-          "url": "IMSIYUDT_Week_14.htm#Interlude-8"
+          "url": "IMSIYUDT_Week_13.htm#Interlude-8"
         },
         {
           "header_type": "Chapter",
           "index_id": "73",
           "title": "Syntax",
-          "url": "IMSIYUDT_Week_14.htm#Chapter-73"
+          "url": "IMSIYUDT_Week_13.htm#Chapter-73"
         },
         {
           "header_type": "Chapter",
           "index_id": "74",
           "title": "Partners",
-          "url": "IMSIYUDT_Week_14.htm#Chapter-74"
+          "url": "IMSIYUDT_Week_13.htm#Chapter-74"
         }]
       }]
     }]
