@@ -742,6 +742,7 @@ var toc_info = {
 function build_toc(contents) {
   if (!Array.isArray(contents)) return;
   let toc_list = document.createElement("ul");
+  toc_list.style.listStyleType = "none";
   for(let entry of contents) {
     if(entry.header_none !== true) {
       let entry_elem = document.createElement("li");
@@ -761,8 +762,10 @@ function build_toc(contents) {
       if(entry.title !== undefined) {
         current_el.innerHTML += ": ";
         let title = document.createElement("span");
+        let hlevel = entry.header_type.toLowerCase();
+        if(hlevel == "prologue" || hlevel == "interlude") hlevel = "chapter";
         title.classList.add("censored");
-        title.classList.add(`${entry.header_type}-title`.toLowerCase());
+        title.classList.add(`${hlevel}-title`);
         title.innerHTML = `${entry.title}`;
         current_el.appendChild(title);
       }
