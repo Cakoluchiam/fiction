@@ -789,7 +789,10 @@ if (open_week == 0) {
   page_title.innerText="👯‍♀️ WWHB Unassigned";
   week_number.innerText = "Unassigned Reading";
 }
-else if (open_week < 13) {
+else if (open_week == 12) {
+  week_number.innerText = "Week "+open_week+" Reading";
+}
+else if (open_week < 12) {
   page_title.innerText = "IMSIYUDT Week "+open_week;
   week_number.innerText = "Week "+open_week+" Reading";
 } else {
@@ -805,7 +808,7 @@ for(let ep of toc_info.episodes) {
   episode_entry.appendChild(document.createElement("summary"));
   episode_entry.firstChild.innerHTML = episode_title;
   episode_entry.appendChild(build_toc(ep.contents));
-  console.log(open_week);
+  // console.log(open_week);
   if(--open_week == 0) {
     episode_entry.toggleAttribute("open");
     episode_entry.setAttribute("id", "toc_current");
