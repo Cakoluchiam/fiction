@@ -1,4 +1,4 @@
-var toc_info = {
+let toc_info = {
   "episodes": [{
     "episode_type": "Episode",
     "episode_id": "01",
@@ -628,8 +628,9 @@ var toc_info = {
   },
   {
     "episode_type": "👯‍♀️",
-    "episode_id": "s03e01",
-    "episode_date": "2023-07-31 (Tentative)",
+    "episode_id": "s03e02",
+    "episode_date": "2023-08-21",
+    "episode_comment": "Current",
     "contents": [{
       "header_none": true,
       "contents": [{
@@ -637,79 +638,79 @@ var toc_info = {
         "header_type": "Book",
         "index_id": "Eight",
         "title": "Revelations",
-        "url": "IMSIYUDT_Week_13.htm#Book-Eight",
+        "url": "WWBE_WWHB_s03e02.htm#Book-Eight",
         "contents": [{
           "header_type": "Chapter",
           "index_id": "65",
           "title": "Thoughts and Prayers",
-          "url": "IMSIYUDT_Week_13.htm#Chapter-65"
+          "url": "WWBE_WWHB_s03e02.htm#Chapter-65"
         },
         {
           "header_type": "Chapter",
           "index_id": "66",
           "title": "a/s/l",
-          "url": "IMSIYUDT_Week_13.htm#Chapter-66"
+          "url": "WWBE_WWHB_s03e02.htm#Chapter-66"
         },
         {
           "header_type": "Chapter",
           "index_id": "67",
           "title": "Errors in Favor",
-          "url": "IMSIYUDT_Week_13.htm#Chapter-67"
+          "url": "WWBE_WWHB_s03e02.htm#Chapter-67"
         },
         {
           "header_type": "Chapter",
           "index_id": "68",
           "title": "Planning Ahead",
-          "url": "IMSIYUDT_Week_13.htm#Chapter-68"
+          "url": "WWBE_WWHB_s03e02.htm#Chapter-68"
         },
         {
           "header_type": "Chapter",
           "index_id": "69",
           "title": "Revealed Preferences",
-          "url": "IMSIYUDT_Week_13.htm#Chapter-69"
+          "url": "WWBE_WWHB_s03e02.htm#Chapter-69"
         },
         {
           "header_type": "Chapter",
           "index_id": "70",
           "title": "Oops.",
-          "url": "IMSIYUDT_Week_13.htm#Chapter-70"
+          "url": "WWBE_WWHB_s03e02.htm#Chapter-70"
         },
         {
           "header_type": "Chapter",
           "index_id": "71",
           "title": "Glimpses of Visions",
-          "url": "IMSIYUDT_Week_13.htm#Chapter-71"
+          "url": "WWBE_WWHB_s03e02.htm#Chapter-71"
         },
         {
           "header_type": "Chapter",
           "index_id": "72",
           "title": "Correction",
-          "url": "IMSIYUDT_Week_13.htm#Chapter-72"
+          "url": "WWBE_WWHB_s03e02.htm#Chapter-72"
         },
         {
           "header_type": "Interlude",
           "index_id": "卌|||",
           "title": "Vocabulary",
-          "url": "IMSIYUDT_Week_13.htm#Interlude-8"
+          "url": "WWBE_WWHB_s03e02.htm#Interlude-8"
         },
         {
           "header_type": "Chapter",
           "index_id": "73",
           "title": "Syntax",
-          "url": "IMSIYUDT_Week_13.htm#Chapter-73"
+          "url": "WWBE_WWHB_s03e02.htm#Chapter-73"
         },
         {
           "header_type": "Chapter",
           "index_id": "74",
           "title": "Partners",
-          "url": "IMSIYUDT_Week_13.htm#Chapter-74"
+          "url": "WWBE_WWHB_s03e02.htm#Chapter-74"
         }]
       }]
     }]
   },
   {
     "episode_type": "👯‍♀️",
-    "episode_id": "s03e02",
+    "episode_id": "s03e03",
     "episode_date": "Preview",
     "contents": [{
       "header_none": true,
@@ -719,7 +720,7 @@ var toc_info = {
           "header_type": "Chapter",
           "index_id": "75",
           "title": "Concealment",
-          "url": "IMSIYUDT_Week_14.htm#Chapter-75"
+          "url": "WWBE_WWHB_s03e03.htm#Chapter-75"
         }]
       }]
     }]
@@ -781,6 +782,20 @@ function build_toc(contents) {
 
 let toc_element = document.getElementById("toc_placeholder");
 let open_week = Number(toc_element.getAttribute("open_week"));
+let page_title = document.getElementById("page-title");
+let week_number = document.getElementById("week_number");
+if (open_week == 0) {
+  open_week += toc_info.episodes.length;
+  page_title.innerText="👯‍♀️ WWHB Unassigned";
+  week_number.innerText = "Unassigned Reading";
+}
+else if (open_week < 13) {
+  page_title.innerText = "IMSIYUDT Week "+open_week;
+  week_number.innerText = "Week "+open_week+" Reading";
+} else {
+  page_title.innerText="👯‍♀️ WWHB Episode "+(open_week-11);
+  week_number.innerText = "Episode "+(open_week-11)+" Reading";
+}
 for(let ep of toc_info.episodes) {
   episode_title = ep.episode_type
   if (ep.episode_id !== undefined) episode_title += " " + ep.episode_id;
@@ -791,6 +806,9 @@ for(let ep of toc_info.episodes) {
   episode_entry.firstChild.innerHTML = episode_title;
   episode_entry.appendChild(build_toc(ep.contents));
   console.log(open_week);
-  if(--open_week == 0) episode_entry.toggleAttribute("open");
+  if(--open_week == 0) {
+    episode_entry.toggleAttribute("open");
+    episode_entry.setAttribute("id", "toc_current");
+  }
   toc_element.appendChild(episode_entry);
 }
