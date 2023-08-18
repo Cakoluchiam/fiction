@@ -4850,6 +4850,23 @@
       item.addEventListener('mouseout', unpeek);
       item.addEventListener('click', censor);
     }
+
+    function closeDetail() {
+      that = this;
+      that.parentElement.scrollIntoView({behavior: 'smooth'});
+      // window.setTimeout(function(){
+      //   that.parentElement.removeAttribute('open');
+      // }, 500)
+    }
+
+    for(item of document.getElementsByClassName('chapter-content')) {
+      let close_button = document.createElement("a");
+      close_button.onclick = closeDetail;
+      close_button.style.color = "black";
+      close_button.innerHTML = "&#x25b2; chapter start";
+      posts = item.getElementsByClassName('flat-post-replies');
+      item.insertBefore(close_button, posts[posts.length-1].nextSibling);
+    }
   </script>
 </body>
 </html>
