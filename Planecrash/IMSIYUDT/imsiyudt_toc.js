@@ -223,61 +223,58 @@ let toc_info = {
         "title": "Orientation",
         "url": "IMSIYUDT_Week_5.htm#Book-Three",
         "contents": [{
-          "header_none": true,
-          "contents": [{
-            "header_type": "Chapter",
-            "index_id": "21",
-            "title": "Sense Motive",
-            "url": "IMSIYUDT_Week_5.htm#Chapter-21"
-          },
-          {
-            "header_type": "Chapter",
-            "index_id": "22",
-            "title": "One Equals One",
-            "url": "IMSIYUDT_Week_5.htm#Chapter-22"
-          },
-          {
-            "header_type": "Chapter",
-            "index_id": "23",
-            "title": "Faster Than Hell",
-            "url": "IMSIYUDT_Week_5.htm#Chapter-23"
-          },
-          {
-            "header_type": "Interlude",
-            "index_id": "|||",
-            "title": "Syllogism",
-            "url": "IMSIYUDT_Week_5.htm#Interlude-3"
-          },
-          {
-            "header_type": "Chapter",
-            "index_id": "24",
-            "title": "Divergence",
-            "url": "IMSIYUDT_Week_5.htm#Chapter-24"
-          },
-          {
-            "header_type": "Interlude",
-            "index_id": "||||",
-            "title": "Building Blocks",
-            "url": "IMSIYUDT_Week_5.htm#Interlude-4"
-          },
-          {
-            "header_type": "Chapter",
-            "index_id": "25",
-            "title": "Shadows of Necessary Truths",
-            "url": "IMSIYUDT_Week_5.htm#Chapter-25"
-          },
-          {
-            "header_type": "Chapter",
-            "index_id": "26",
-            "title": "Absolute and Timeless Stuff",
-            "url": "IMSIYUDT_Week_5.htm#Chapter-26"
-          },
-          {
-            "header_type": "Chapter",
-            "index_id": "27",
-            "title": "Keepers",
-            "url": "IMSIYUDT_Week_5.htm#Chapter-27"
-          }]
+          "header_type": "Chapter",
+          "index_id": "21",
+          "title": "Sense Motive",
+          "url": "IMSIYUDT_Week_5.htm#Chapter-21"
+        },
+        {
+          "header_type": "Chapter",
+          "index_id": "22",
+          "title": "One Equals One",
+          "url": "IMSIYUDT_Week_5.htm#Chapter-22"
+        },
+        {
+          "header_type": "Chapter",
+          "index_id": "23",
+          "title": "Faster Than Hell",
+          "url": "IMSIYUDT_Week_5.htm#Chapter-23"
+        },
+        {
+          "header_type": "Interlude",
+          "index_id": "|||",
+          "title": "Syllogism",
+          "url": "IMSIYUDT_Week_5.htm#Interlude-3"
+        },
+        {
+          "header_type": "Chapter",
+          "index_id": "24",
+          "title": "Divergence",
+          "url": "IMSIYUDT_Week_5.htm#Chapter-24"
+        },
+        {
+          "header_type": "Interlude",
+          "index_id": "||||",
+          "title": "Building Blocks",
+          "url": "IMSIYUDT_Week_5.htm#Interlude-4"
+        },
+        {
+          "header_type": "Chapter",
+          "index_id": "25",
+          "title": "Shadows of Necessary Truths",
+          "url": "IMSIYUDT_Week_5.htm#Chapter-25"
+        },
+        {
+          "header_type": "Chapter",
+          "index_id": "26",
+          "title": "Absolute and Timeless Stuff",
+          "url": "IMSIYUDT_Week_5.htm#Chapter-26"
+        },
+        {
+          "header_type": "Chapter",
+          "index_id": "27",
+          "title": "Keepers",
+          "url": "IMSIYUDT_Week_5.htm#Chapter-27"
         }]
       }]
     }]
@@ -304,31 +301,28 @@ let toc_info = {
         "title": "Curriculum",
         "url": "IMSIYUDT_Week_6.htm#Book-Four",
         "contents": [{
-          "header_none": true,
-          "contents": [{
-            "header_type": "Chapter",
-            "index_id": "28",
-            "title": "Lunch",
-            "url": "IMSIYUDT_Week_6.htm#Chapter-28"
-          },
-          {
-            "header_type": "Chapter",
-            "index_id": "29",
-            "title": "Variance",
-            "url": "IMSIYUDT_Week_6.htm#Chapter-29"
-          },
-          {
-            "header_type": "Chapter",
-            "index_id": "30",
-            "title": "Variants",
-            "url": "IMSIYUDT_Week_6.htm#Chapter-30"
-          },
-          {
-            "header_type": "Chapter",
-            "index_id": "31",
-            "title": "Dignity, Dignity, and Dignity",
-            "url": "IMSIYUDT_Week_6.htm#Chapter-31"
-          }]
+          "header_type": "Chapter",
+          "index_id": "28",
+          "title": "Lunch",
+          "url": "IMSIYUDT_Week_6.htm#Chapter-28"
+        },
+        {
+          "header_type": "Chapter",
+          "index_id": "29",
+          "title": "Variance",
+          "url": "IMSIYUDT_Week_6.htm#Chapter-29"
+        },
+        {
+          "header_type": "Chapter",
+          "index_id": "30",
+          "title": "Variants",
+          "url": "IMSIYUDT_Week_6.htm#Chapter-30"
+        },
+        {
+          "header_type": "Chapter",
+          "index_id": "31",
+          "title": "Dignity, Dignity, and Dignity",
+          "url": "IMSIYUDT_Week_6.htm#Chapter-31"
         }]
       }]
     }]
@@ -576,7 +570,7 @@ let toc_info = {
         "header_type": "Book",
         "index_id": "Seven",
         "title": "Kissing Is Not a Human Universal",
-        "comment": "(nsfw)",
+        "comment": "nsfw",
         "url": "IMSIYUDT_Week_12.htm#Book-Seven",
         "contents": [{
           "header_type": "Chapter",
@@ -715,12 +709,46 @@ let toc_info = {
     "contents": [{
       "header_none": true,
       "contents": [{
-        "header_none": true,
+        "header_level": 3,
+        "header_type": "Book",
+        "index_id": "Nine",
+        "title": "Communication",
+        "url": "WWBE_WWHB_s03e03.htm#Book-Nine",
         "contents": [{
           "header_type": "Chapter",
           "index_id": "75",
           "title": "Concealment",
           "url": "WWBE_WWHB_s03e03.htm#Chapter-75"
+        },{
+          "header_type": "Chapter",
+          "index_id": "76",
+          "title": "To Take What You Want",
+          "url": "WWBE_WWHB_s03e03.htm#Chapter-76"
+        },{
+          "header_type": "Chapter",
+          "index_id": "77",
+          "title": "Nest of Snakes",
+          "url": "WWBE_WWHB_s03e03.htm#Chapter-77"
+        },{
+          "header_type": "Chapter",
+          "index_id": "78",
+          "title": "Additional Questions",
+          "url": "WWBE_WWHB_s03e03.htm#Chapter-78"
+        },{
+          "header_type": "Chapter",
+          "index_id": "79",
+          "title": "Backstory",
+          "url": "WWBE_WWHB_s03e03.htm#Chapter-79"
+        },{
+          "header_type": "Chapter",
+          "index_id": "80",
+          "title": "Bounties",
+          "url": "WWBE_WWHB_s03e03.htm#Chapter-80"
+        },{
+          "header_type": "Chapter",
+          "index_id": "卌||||",
+          "title": "Dramatis Personae",
+          "url": "WWBE_WWHB_s03e03.htm#Interlude-9"
         }]
       }]
     }]
@@ -783,21 +811,21 @@ function build_toc(contents) {
 let toc_element = document.getElementById("toc_placeholder");
 let open_week = Number(toc_element.getAttribute("open_week"));
 let page_title = document.getElementById("page-title");
-let week_number = document.getElementById("week_number");
+// let week_number = document.getElementById("week_number");
 if (open_week == 0) {
   open_week += toc_info.episodes.length;
   page_title.innerText="👯‍♀️ WWHB Unassigned";
-  week_number.innerText = "Unassigned Reading";
+  // week_number.innerText = "Unassigned Reading";
 }
 else if (open_week == 12) {
-  week_number.innerText = "Week "+open_week+" Reading";
+  // week_number.innerText = "Week "+open_week+" Reading";
 }
 else if (open_week < 12) {
   page_title.innerText = "IMSIYUDT Week "+open_week;
-  week_number.innerText = "Week "+open_week+" Reading";
+  // week_number.innerText = "Week "+open_week+" Reading";
 } else {
   page_title.innerText="👯‍♀️ WWHB Episode "+(open_week-11);
-  week_number.innerText = "Episode "+(open_week-11)+" Reading";
+  // week_number.innerText = "Episode "+(open_week-11)+" Reading";
 }
 for(let ep of toc_info.episodes) {
   episode_title = ep.episode_type
