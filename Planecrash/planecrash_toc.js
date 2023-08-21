@@ -739,16 +739,6 @@ let toc_info = {
           "index_id": "79",
           "title": "Backstory",
           "url": "WWBE_WWHB_s03e03.htm#Chapter-79"
-        },{
-          "header_type": "Chapter",
-          "index_id": "80",
-          "title": "Bounties",
-          "url": "WWBE_WWHB_s03e03.htm#Chapter-80"
-        },{
-          "header_type": "Chapter",
-          "index_id": "卌||||",
-          "title": "Dramatis Personae",
-          "url": "WWBE_WWHB_s03e03.htm#Interlude-9"
         }]
       }]
     }]
@@ -760,8 +750,18 @@ let toc_info = {
       "contents": [{
         "header_none": true,
         "contents": [{
+          "header_type": "Chapter",
+          "index_id": "80",
+          "title": "Bounties",
+          "url": "IMSIYUDT_Unassigned.htm#Chapter-80"
+        },{
+          "header_type": "Chapter",
+          "index_id": "卌||||",
+          "title": "Dramatis Personae",
+          "url": "IMSIYUDT_Unassigned.htm#Interlude-9"
+        },{
           "header_type": "Unindexed",
-          "url": "IMSIYUDT_Unassigned.htm"
+          "url": "IMSIYUDT_Unassigned.htm#Chapter-???"
         }]
       }]
     }]
