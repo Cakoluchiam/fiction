@@ -739,6 +739,11 @@ let toc_info = {
           "index_id": "79",
           "title": "Backstory",
           "url": "WWBE_WWHB_s03e03.htm#Chapter-79"
+        },{
+          "header_type": "Chapter",
+          "index_id": "80",
+          "title": "Bounties",
+          "url": "IMSIYUDT_Unassigned.htm#Chapter-80"
         }]
       }]
     }]
@@ -750,18 +755,23 @@ let toc_info = {
       "contents": [{
         "header_none": true,
         "contents": [{
-          "header_type": "Chapter",
-          "index_id": "80",
-          "title": "Bounties",
-          "url": "IMSIYUDT_Unassigned.htm#Chapter-80"
-        },{
-          "header_type": "Chapter",
+          "header_type": "Interlude",
           "index_id": "卌||||",
           "title": "Dramatis Personae",
           "url": "IMSIYUDT_Unassigned.htm#Interlude-9"
         },{
+          "header_type": "Chapter",
+          "index_id": "81",
+          "title": "Fairness",
+          "url": "IMSIYUDT_Unassigned.htm#Chapter-81"
+        },{
+          "header_type": "Interlude",
+          "index_id": "◻",
+          "title": "Financial Literacy Level 2",
+          "url": "IMSIYUDT_Unassigned.htm#Interlude-10"
+        },{
           "header_type": "Unindexed",
-          "url": "IMSIYUDT_Unassigned.htm#Chapter-???"
+          "url": "IMSIYUDT_Unassigned.htm#Chapter-82"
         }]
       }]
     }]
