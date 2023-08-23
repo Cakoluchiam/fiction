@@ -622,9 +622,8 @@ let toc_info = {
   },
   {
     "episode_type": "👯‍♀️",
-    "episode_id": "s03e02",
-    "episode_date": "2023-08-21",
-    "episode_comment": "Current",
+    "episode_id": "s03e03",
+    "episode_date": "2023-08-23",
     "contents": [{
       "header_none": true,
       "contents": [{
@@ -632,80 +631,81 @@ let toc_info = {
         "header_type": "Book",
         "index_id": "Eight",
         "title": "Revelations",
-        "url": "WWBE_WWHB_s03e02.htm#Book-Eight",
+        "url": "WWBE_WWHB_s03e03.htm#Book-Eight",
         "contents": [{
           "header_type": "Chapter",
           "index_id": "65",
           "title": "Thoughts and Prayers",
-          "url": "WWBE_WWHB_s03e02.htm#Chapter-65"
+          "url": "WWBE_WWHB_s03e03.htm#Chapter-65"
         },
         {
           "header_type": "Chapter",
           "index_id": "66",
           "title": "a/s/l",
-          "url": "WWBE_WWHB_s03e02.htm#Chapter-66"
+          "url": "WWBE_WWHB_s03e03.htm#Chapter-66"
         },
         {
           "header_type": "Chapter",
           "index_id": "67",
           "title": "Errors in Favor",
-          "url": "WWBE_WWHB_s03e02.htm#Chapter-67"
+          "url": "WWBE_WWHB_s03e03.htm#Chapter-67"
         },
         {
           "header_type": "Chapter",
           "index_id": "68",
           "title": "Planning Ahead",
-          "url": "WWBE_WWHB_s03e02.htm#Chapter-68"
+          "url": "WWBE_WWHB_s03e03.htm#Chapter-68"
         },
         {
           "header_type": "Chapter",
           "index_id": "69",
           "title": "Revealed Preferences",
-          "url": "WWBE_WWHB_s03e02.htm#Chapter-69"
+          "url": "WWBE_WWHB_s03e03.htm#Chapter-69"
         },
         {
           "header_type": "Chapter",
           "index_id": "70",
           "title": "Oops.",
-          "url": "WWBE_WWHB_s03e02.htm#Chapter-70"
+          "url": "WWBE_WWHB_s03e03.htm#Chapter-70"
         },
         {
           "header_type": "Chapter",
           "index_id": "71",
           "title": "Glimpses of Visions",
-          "url": "WWBE_WWHB_s03e02.htm#Chapter-71"
+          "url": "WWBE_WWHB_s03e03.htm#Chapter-71"
         },
         {
           "header_type": "Chapter",
           "index_id": "72",
           "title": "Correction",
-          "url": "WWBE_WWHB_s03e02.htm#Chapter-72"
+          "url": "WWBE_WWHB_s03e03.htm#Chapter-72"
         },
         {
           "header_type": "Interlude",
           "index_id": "卌|||",
           "title": "Vocabulary",
-          "url": "WWBE_WWHB_s03e02.htm#Interlude-8"
+          "url": "WWBE_WWHB_s03e03.htm#Interlude-8"
         },
         {
           "header_type": "Chapter",
           "index_id": "73",
           "title": "Syntax",
-          "url": "WWBE_WWHB_s03e02.htm#Chapter-73"
+          "url": "WWBE_WWHB_s03e03.htm#Chapter-73"
         },
         {
           "header_type": "Chapter",
           "index_id": "74",
           "title": "Partners",
-          "url": "WWBE_WWHB_s03e02.htm#Chapter-74"
+          "url": "WWBE_WWHB_s03e03.htm#Chapter-74"
         }]
       }]
     }]
   },
   {
     "episode_type": "👯‍♀️",
-    "episode_id": "s03e03",
-    "episode_date": "Preview",
+    "episode_id": "s03e04",
+    "episode_date": "2023-08-28",
+    "episode_comment": "Current",
     "contents": [{
       "header_none": true,
       "contents": [{
@@ -713,37 +713,37 @@ let toc_info = {
         "header_type": "Book",
         "index_id": "Nine",
         "title": "Communication",
-        "url": "WWBE_WWHB_s03e03.htm#Book-Nine",
+        "url": "WWBE_WWHB_s03e04.htm#Book-Nine",
         "contents": [{
           "header_type": "Chapter",
           "index_id": "75",
           "title": "Concealment",
-          "url": "WWBE_WWHB_s03e03.htm#Chapter-75"
+          "url": "WWBE_WWHB_s03e04.htm#Chapter-75"
         },{
           "header_type": "Chapter",
           "index_id": "76",
           "title": "To Take What You Want",
-          "url": "WWBE_WWHB_s03e03.htm#Chapter-76"
+          "url": "WWBE_WWHB_s03e04.htm#Chapter-76"
         },{
           "header_type": "Chapter",
           "index_id": "77",
           "title": "Nest of Snakes",
-          "url": "WWBE_WWHB_s03e03.htm#Chapter-77"
+          "url": "WWBE_WWHB_s03e04.htm#Chapter-77"
         },{
           "header_type": "Chapter",
           "index_id": "78",
           "title": "Additional Questions",
-          "url": "WWBE_WWHB_s03e03.htm#Chapter-78"
+          "url": "WWBE_WWHB_s03e04.htm#Chapter-78"
         },{
           "header_type": "Chapter",
           "index_id": "79",
-          "title": "Backstory",
-          "url": "WWBE_WWHB_s03e03.htm#Chapter-79"
+          "title": "Dramatis Personae",
+          "url": "WWBE_WWHB_s03e04.htm#Chapter-79"
         },{
           "header_type": "Chapter",
           "index_id": "80",
           "title": "Bounties",
-          "url": "IMSIYUDT_Unassigned.htm#Chapter-80"
+          "url": "WWBE_WWHB_s03e04.htm#Chapter-80"
         }]
       }]
     }]
@@ -757,13 +757,18 @@ let toc_info = {
         "contents": [{
           "header_type": "Interlude",
           "index_id": "卌||||",
-          "title": "Dramatis Personae",
+          "title": "Backstory",
           "url": "IMSIYUDT_Unassigned.htm#Interlude-9"
         },{
           "header_type": "Chapter",
           "index_id": "81",
-          "title": "Fairness",
+          "title": "Contact With the Enemy",
           "url": "IMSIYUDT_Unassigned.htm#Chapter-81"
+        },{
+          "header_type": "Chapter",
+          "index_id": "82",
+          "title": "Fairness",
+          "url": "IMSIYUDT_Unassigned.htm#Chapter-82"
         },{
           "header_type": "Interlude",
           "index_id": "◻",
