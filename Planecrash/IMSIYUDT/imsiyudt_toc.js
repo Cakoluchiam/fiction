@@ -855,6 +855,48 @@ for(let ep of toc_info.episodes) {
   if(--open_week == 0) {
     episode_entry.toggleAttribute("open");
     episode_entry.setAttribute("id", "toc_current");
+  } else if (open_week == -1) {
+    // Add a link to the next week, if possible!
+    // console.log("Next Week!");
+    let link = episode_entry.firstChild; //after <summary>
+    while (link && link.nodeName != "A" && link.nodeName != "a") {
+      if(link.nodeName == "SUMMARY" || link.nodeName == "summary") {
+        link = link.nextSibling;
+      } else {
+        link = link.firstChild;
+      }
+    }
+    // console.log("Link:");
+    // console.log(link);
+    if(link) {
+      link = link.cloneNode();
+      link.innerHTML = "next episode: " + episode_title;
+      nextEpisode = document.createElement("div");
+      nextEpisode.innerHTML = "[ "+link.outerHTML+" ]";
+      nextEpisode.style.float = "right";
+      
+      let content = document.getElementById("content");
+      let lastElement = content.lastChild;
+      // console.log("lastElement:");
+      // console.log(lastElement);
+      while (lastElement.nodeName == "#TEXT" || lastElement.nodeName == "#text") {
+        lastElement = lastElement.previousSibling;
+        // console.log("...following:");
+        // console.log(lastElement);
+      }
+
+      // Add/Remove space (comment out as necessary)
+      if((lastElement.nodeName == "div" ||
+          lastElement.nodeName == "DIV") &&
+        lastElement.innerText == "") {
+        // content.removeChild(lastElement);
+      } else {
+        let spacer = document.createElement("div");
+        spacer.style.height = "1em";
+        content.appendChild(spacer);
+      }
+      content.appendChild(nextEpisode);
+    }
   }
   toc_element.appendChild(episode_entry);
 }
