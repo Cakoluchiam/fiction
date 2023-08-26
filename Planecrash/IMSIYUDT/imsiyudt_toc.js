@@ -843,7 +843,7 @@ else if (open_week < 12) {
   // week_number.innerText = "Episode "+(open_week-11)+" Reading";
 }
 for(let ep of toc_info.episodes) {
-  episode_title = ep.episode_type
+  let episode_title = ep.episode_type
   if (ep.episode_id !== undefined) episode_title += " " + ep.episode_id;
   if (ep.episode_date !== undefined) episode_title += " – " + ep.episode_date;
   if (ep.episode_comment !== undefined) episode_title += " (" + ep.episode_comment + ")";
