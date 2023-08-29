@@ -705,7 +705,6 @@ let toc_info = {
     "episode_type": "👯‍♀️",
     "episode_id": "s03e04",
     "episode_date": "2023-08-28",
-    "episode_comment": "Current",
     "contents": [{
       "header_none": true,
       "contents": [{
@@ -749,34 +748,56 @@ let toc_info = {
     }]
   },
   {
+    "episode_type": "👯‍♀️",
+    "episode_id": "s03e05",
+    "episode_date": "2023-09-04",
+    "episode_comment": "Current",
+    "contents": [{
+      "header_none": true,
+      "contents": [{
+        "header_level": 3,
+        "header_type": "Book",
+        "index_id": "Ten",
+        "title": "Trade",
+        "url": "WWBE_WWHB_s03e05.htm#Book-Ten",
+        "contents": [{
+          "header_type": "Interlude",
+          "index_id": "卌||||",
+          "title": "Backstory",
+          "url": "WWBE_WWHB_s03e05.htm#Interlude-9"
+        },{
+          "header_type": "Chapter",
+          "index_id": "81",
+          "title": "Contact With the Enemy",
+          "url": "WWBE_WWHB_s03e05.htm#Chapter-81"
+        },{
+          "header_type": "Chapter",
+          "index_id": "82",
+          "title": "Fairness",
+          "url": "WWBE_WWHB_s03e05.htm#Chapter-82"
+        },{
+          "header_type": "Interlude",
+          "index_id": "◻",
+          "title": "Financial Literacy Level 2",
+          "url": "WWBE_WWHB_s03e05.htm#Interlude-10"
+        },{
+          "header_type": "Chapter",
+          "index_id": "83",
+          "title": "Triangle Trade",
+          "url": "WWBE_WWHB_s03e05.htm#Chapter-83"
+        }]
+      }]
+    }]
+  },
+  {
     "episode_type": "Unassigned",
     "contents": [{
       "header_none": true,
       "contents": [{
         "header_none": true,
         "contents": [{
-          "header_type": "Interlude",
-          "index_id": "卌||||",
-          "title": "Backstory",
-          "url": "IMSIYUDT_Unassigned.htm#Interlude-9"
-        },{
-          "header_type": "Chapter",
-          "index_id": "81",
-          "title": "Contact With the Enemy",
-          "url": "IMSIYUDT_Unassigned.htm#Chapter-81"
-        },{
-          "header_type": "Chapter",
-          "index_id": "82",
-          "title": "Fairness",
-          "url": "IMSIYUDT_Unassigned.htm#Chapter-82"
-        },{
-          "header_type": "Interlude",
-          "index_id": "◻",
-          "title": "Financial Literacy Level 2",
-          "url": "IMSIYUDT_Unassigned.htm#Interlude-10"
-        },{
           "header_type": "Unindexed",
-          "url": "IMSIYUDT_Unassigned.htm#Chapter-82"
+          "url": "IMSIYUDT_Unassigned.htm#Chapter-84"
         }]
       }]
     }]
