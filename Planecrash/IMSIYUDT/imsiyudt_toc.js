@@ -749,8 +749,8 @@ let toc_info = {
   },
   {
     "episode_type": "👯‍♀️",
-    "episode_id": "s03e05",
-    "episode_date": "2023-09-04",
+    "episode_id": "s03e06",
+    "episode_date": "2023-09-11",
     "episode_comment": "Current",
     "contents": [{
       "header_none": true,
@@ -759,32 +759,52 @@ let toc_info = {
         "header_type": "Book",
         "index_id": "Ten",
         "title": "Trade",
-        "url": "WWBE_WWHB_s03e05.htm#Book-Ten",
+        "url": "WWBE_WWHB_s03e06.htm#Book-Ten",
         "contents": [{
           "header_type": "Interlude",
           "index_id": "卌||||",
           "title": "Backstory",
-          "url": "WWBE_WWHB_s03e05.htm#Interlude-9"
+          "url": "WWBE_WWHB_s03e06.htm#Interlude-9"
         },{
           "header_type": "Chapter",
           "index_id": "81",
           "title": "Contact With the Enemy",
-          "url": "WWBE_WWHB_s03e05.htm#Chapter-81"
+          "url": "WWBE_WWHB_s03e06.htm#Chapter-81"
         },{
           "header_type": "Chapter",
           "index_id": "82",
           "title": "Fairness",
-          "url": "WWBE_WWHB_s03e05.htm#Chapter-82"
+          "url": "WWBE_WWHB_s03e06.htm#Chapter-82"
         },{
           "header_type": "Interlude",
           "index_id": "◻",
           "title": "Financial Literacy Level 2",
-          "url": "WWBE_WWHB_s03e05.htm#Interlude-10"
+          "url": "WWBE_WWHB_s03e06.htm#Interlude-10"
         },{
           "header_type": "Chapter",
           "index_id": "83",
           "title": "Triangle Trade",
-          "url": "WWBE_WWHB_s03e05.htm#Chapter-83"
+          "url": "WWBE_WWHB_s03e06.htm#Chapter-83"
+        },{
+          "header_type": "Chapter",
+          "index_id": "84",
+          "title": "Shoes",
+          "url": "WWBE_WWHB_s03e06.htm#Chapter-84"
+        },{
+          "header_type": "Chapter",
+          "index_id": "85",
+          "title": "Something Publicly Observable",
+          "url": "WWBE_WWHB_s03e06.htm#Chapter-85"
+        },{
+          "header_type": "Chapter",
+          "index_id": "86",
+          "title": "Implicit Favors",
+          "url": "WWBE_WWHB_s03e06.htm#Chapter-86"
+        },{
+          "header_type": "Chapter",
+          "index_id": "87",
+          "title": "An Ideal-Agent Calculation Whose Naked Specification Is Too Large for Even Gods to Compute",
+          "url": "WWBE_WWHB_s03e06.htm#Chapter-87"
         }]
       }]
     }]
