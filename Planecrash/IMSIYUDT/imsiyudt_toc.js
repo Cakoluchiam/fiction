@@ -750,8 +750,7 @@ let toc_info = {
   {
     "episode_type": "👯‍♀️",
     "episode_id": "s03e06",
-    "episode_date": "2023-09-11",
-    "episode_comment": "Current",
+    "episode_date": "2023-09-13",
     "contents": [{
       "header_none": true,
       "contents": [{
@@ -806,6 +805,22 @@ let toc_info = {
           "title": "An Ideal-Agent Calculation Whose Naked Specification Is Too Large for Even Gods to Compute",
           "url": "WWBE_WWHB_s03e06.htm#Chapter-87"
         }]
+      }]
+    }]
+  },
+  {
+    "episode_type": "👯‍♀️",
+    "episode_id": "s03e08",
+    "episode_date": "2023-09-25",
+    "episode_comment": "Current",
+    "contents": [{
+      "header_none": true,
+      "contents": [{
+        "header_level": 3,
+        "header_type": "Book",
+        "index_id": "Eleven",
+        "comment": "Title TBD",
+        "url": "WWBE_WWHB_s03e08.htm#Book-Eleven"
       }]
     }]
   },
