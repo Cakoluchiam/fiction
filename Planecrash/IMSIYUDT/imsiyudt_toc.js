@@ -759,59 +759,61 @@ let toc_info = {
         "index_id": "Ten",
         "title": "Trade",
         "url": "WWBE_WWHB_s03e06.htm#Book-Ten",
-        "contents": [{
-          "header_type": "Interlude",
-          "index_id": "卌||||",
-          "title": "Backstory",
-          "url": "WWBE_WWHB_s03e06.htm#Interlude-9"
-        },{
-          "header_type": "Chapter",
-          "index_id": "81",
-          "title": "Contact With the Enemy",
-          "url": "WWBE_WWHB_s03e06.htm#Chapter-81"
-        },{
-          "header_type": "Chapter",
-          "index_id": "82",
-          "title": "Fairness",
-          "url": "WWBE_WWHB_s03e06.htm#Chapter-82"
-        },{
-          "header_type": "Interlude",
-          "index_id": "◻",
-          "title": "Financial Literacy Level 2",
-          "url": "WWBE_WWHB_s03e06.htm#Interlude-10"
-        },{
-          "header_type": "Chapter",
-          "index_id": "83",
-          "title": "Triangle Trade",
-          "url": "WWBE_WWHB_s03e06.htm#Chapter-83"
-        },{
-          "header_type": "Chapter",
-          "index_id": "84",
-          "title": "Shoes",
-          "url": "WWBE_WWHB_s03e06.htm#Chapter-84"
-        },{
-          "header_type": "Chapter",
-          "index_id": "85",
-          "title": "Something Publicly Observable",
-          "url": "WWBE_WWHB_s03e06.htm#Chapter-85"
-        },{
-          "header_type": "Chapter",
-          "index_id": "86",
-          "title": "Implicit Favors",
-          "url": "WWBE_WWHB_s03e06.htm#Chapter-86"
-        },{
-          "header_type": "Chapter",
-          "index_id": "87",
-          "title": "An Ideal-Agent Calculation Whose Naked Specification Is Too Large for Even Gods to Compute",
-          "url": "WWBE_WWHB_s03e06.htm#Chapter-87"
-        }]
+        "contents": [
+          {
+            "header_type": "Interlude",
+            "index_id": "卌||||",
+            "title": "Backstory",
+            "url": "WWBE_WWHB_s03e06.htm#Interlude-9"
+          },{
+            "header_type": "Chapter",
+            "index_id": "81",
+            "title": "Contact With the Enemy",
+            "url": "WWBE_WWHB_s03e06.htm#Chapter-81"
+          },{
+            "header_type": "Chapter",
+            "index_id": "82",
+            "title": "Fairness",
+            "url": "WWBE_WWHB_s03e06.htm#Chapter-82"
+          },{
+            "header_type": "Interlude",
+            "index_id": "◻",
+            "title": "Financial Literacy Level 2",
+            "url": "WWBE_WWHB_s03e06.htm#Interlude-10"
+          },{
+            "header_type": "Chapter",
+            "index_id": "83",
+            "title": "Triangle Trade",
+            "url": "WWBE_WWHB_s03e06.htm#Chapter-83"
+          },{
+            "header_type": "Chapter",
+            "index_id": "84",
+            "title": "Shoes",
+            "url": "WWBE_WWHB_s03e06.htm#Chapter-84"
+          },{
+            "header_type": "Chapter",
+            "index_id": "85",
+            "title": "Something Publicly Observable",
+            "url": "WWBE_WWHB_s03e06.htm#Chapter-85"
+          },{
+            "header_type": "Chapter",
+            "index_id": "86",
+            "title": "Implicit Favors",
+            "url": "WWBE_WWHB_s03e06.htm#Chapter-86"
+          },{
+            "header_type": "Chapter",
+            "index_id": "87",
+            "title": "An Ideal-Agent Calculation Whose Naked Specification Is Too Large for Even Gods to Compute",
+            "url": "WWBE_WWHB_s03e06.htm#Chapter-87"
+          }
+        ]
       }]
     }]
   },
   {
     "episode_type": "👯‍♀️",
     "episode_id": "s03e08",
-    "episode_date": "2023-09-25",
+    "episode_date": "2023-09-27",
     "episode_comment": "Current",
     "contents": [{
       "header_none": true,
@@ -819,8 +821,162 @@ let toc_info = {
         "header_level": 3,
         "header_type": "Book",
         "index_id": "Eleven",
+        "title": "Incentives",
+        "url": "WWBE_WWHB_s03e08.htm#Book-Eleven",
+        "contents": [
+          {
+            "header_type": "Chapter",
+            "index_id": "88",
+            "title": "Rapid Retraining",
+            "url": "WWBE_WWHB_s03e08.htm#Chapter-88"
+          },
+          {
+            "header_type": "Chapter",
+            "index_id": "89",
+            "title": "Scaffold",
+            "url": "WWBE_WWHB_s03e08.htm#Chapter-89"
+          },
+          {
+            "header_type": "Chapter",
+            "index_id": "90",
+            "title": "Comeliness",
+            "url": "WWBE_WWHB_s03e08.htm#Chapter-90"
+          },
+          {
+            "header_type": "Chapter",
+            "index_id": "91",
+            "title": "Science Maniac",
+            "url": "WWBE_WWHB_s03e08.htm#Chapter-91"
+          },
+          {
+            "header_type": "Chapter",
+            "index_id": "92",
+            "title": "Exclusion",
+            "url": "WWBE_WWHB_s03e08.htm#Chapter-92"
+          },
+          {
+            "header_type": "Chapter",
+            "index_id": "93",
+            "title": "Exception",
+            "url": "WWBE_WWHB_s03e08.htm#Chapter-93"
+          },
+          {
+            "header_type": "Chapter",
+            "index_id": "94",
+            "title": "Incursion",
+            "url": "WWBE_WWHB_s03e08.htm#Chapter-94"
+          },
+          {
+            "header_type": "Chapter",
+            "index_id": "95",
+            "title": "Expulsion",
+            "url": "WWBE_WWHB_s03e08.htm#Chapter-95"
+          },
+          {
+            "header_type": "Chapter",
+            "index_id": "96",
+            "title": "Fights Among High-Level Casters Don't Last Long",
+            "url": "WWBE_WWHB_s03e08.htm#Chapter-96"
+          },
+          {
+            "header_type": "Chapter",
+            "index_id": "97",
+            "title": "When Prophesy Is Broken",
+            "url": "WWBE_WWHB_s03e08.htm#Chapter-97"
+          },
+          {
+            "header_type": "Chapter",
+            "index_id": "98",
+            "title": "Last Resort",
+            "url": "WWBE_WWHB_s03e08.htm#Chapter-98"
+          },
+          {
+            "header_type": "Chapter",
+            "index_id": "99",
+            "title": "Reasoning in Overdrive",
+            "url": "WWBE_WWHB_s03e08.htm#Chapter-99"
+          }
+        ]
+      }]
+    }]
+  },
+  {
+    "episode_type": "👯‍♀️",
+    "episode_id": "s03e10",
+    "episode_date": "2023-10-11",
+    "episode_comment": "Preview",
+    "contents": [{
+      "header_none": true,
+      "contents": [{
+        "header_level": 3,
+        "header_type": "Book",
+        "index_id": "Twelve",
         "comment": "Title TBD",
-        "url": "WWBE_WWHB_s03e08.htm#Book-Eleven"
+        "url": "WWBE_WWHB_s03e10.htm#Book-Twelve"
+      }]
+    }]
+  },
+  {
+    "episode_type": "👯‍♀️",
+    "episode_id": "s03e12",
+    "episode_date": "2023-10-25",
+    "episode_comment": "Preview",
+    "contents": [{
+      "header_none": true,
+      "contents": [{
+        "header_level": 3,
+        "header_type": "Book",
+        "index_id": "Thirteen",
+        "comment": "Title TBD",
+        "url": "WWBE_WWHB_s03e12.htm#Book-Thirteen"
+      }]
+    }]
+  },
+  {
+    "episode_type": "👯‍♀️",
+    "episode_id": "s03e14",
+    "episode_date": "2023-11-01",
+    "episode_comment": "Preview",
+    "contents": [{
+      "header_none": true,
+      "contents": [{
+        "header_level": 3,
+        "header_type": "Book",
+        "index_id": "Fourteen",
+        "comment": "Title TBD",
+        "url": "WWBE_WWHB_s03e14.htm#Book-Fourteen"
+      }]
+    }]
+  },
+  {
+    "episode_type": "👯‍♀️",
+    "episode_id": "s03e16",
+    "episode_date": "2023-11-15",
+    "episode_comment": "Preview",
+    "contents": [{
+      "header_none": true,
+      "contents": [{
+        "header_level": 3,
+        "header_type": "Book",
+        "index_id": "Fifteen",
+        "comment": "Title TBD",
+        "url": "WWBE_WWHB_s03e16.htm#Book-Fifteen"
+      }]
+    }]
+  },
+  {
+    "episode_type": "👯‍♀️",
+    "episode_id": "s03e18",
+    "episode_date": "2023-11-29",
+    "episode_comment": "Preview",
+    "contents": [{
+      "header_none": true,
+      "contents": [{
+        "header_level": 3,
+        "header_type": "Book",
+        "index_id": "Sixteen",
+        "comment": "Title TBD",
+        "url": "WWBE_WWHB_s03e18.htm#Book-Sixteen"
       }]
     }]
   },
@@ -832,7 +988,7 @@ let toc_info = {
         "header_none": true,
         "contents": [{
           "header_type": "Unindexed",
-          "url": "IMSIYUDT_Unassigned.htm#Chapter-84"
+          "url": "IMSIYUDT_Unassigned.htm#Top"
         }]
       }]
     }]
