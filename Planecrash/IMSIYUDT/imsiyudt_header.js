@@ -14,7 +14,7 @@ let wwhb_header = `
         <br>
         IMSIYUDT (Ch.1–64): <a href="https://hpmorpodcast.com/?page_id=3089"><img src="project-lawful.png" style="max-height:1.25rem;vertical-align:top;" alt="RSS link"></a>
         <br>
-        👯‍♀️: We Want Headbands (Ch.65+): <a href="https://www.youtube.com/playlist?list=PLAlH6yb8J7I0-UyuUbE3xRyaZv6jnv3yH"><img src="youtube_social_icon_red.png" style="max-height:1.25rem;vertical-align:top;" alt="youtube link"></a>
+        👯‍♀️: We Want Headbands (Ch.65+): <a href="https://www.youtube.com/playlist?list=PLAlH6yb8J7I0-UyuUbE3xRyaZv6jnv3yH"><img src="youtube_social_icon_red.png" style="max-height:1.25rem;vertical-align:top;" alt="youtube link"></a> <a href="https://podcasters.spotify.com/pod/show/womanwithbunnyears"><img src="Spotify_Logo_RGB_Green.png" style="max-height:1.25rem;vertical-align:top;" alt="spotify link"></a>
       </div>`;
 
 header_element = document.getElementById("wwhb_header");
@@ -36,7 +36,7 @@ let imsiyudt_header = `
         <br>
         IMSIYUDT (Ch.1–64): <a href="https://hpmorpodcast.com/?page_id=3089"><img src="project-lawful.png" style="max-height:1.25rem;vertical-align:top;" alt="RSS link"></a>
         <br>
-        👯‍♀️: We Want Headbands (Ch.65+): <a href="https://www.youtube.com/playlist?list=PLAlH6yb8J7I0-UyuUbE3xRyaZv6jnv3yH"><img src="youtube_social_icon_red.png" style="max-height:1.25rem;vertical-align:top;" alt="youtube link"></a>
+        👯‍♀️: We Want Headbands (Ch.65+): <a href="https://www.youtube.com/playlist?list=PLAlH6yb8J7I0-UyuUbE3xRyaZv6jnv3yH"><img src="youtube_social_icon_red.png" style="max-height:1.25rem;vertical-align:top;" alt="youtube link"></a> <a href="https://podcasters.spotify.com/pod/show/womanwithbunnyears"><img src="Spotify_Logo_RGB_Green.png" style="max-height:1.25rem;vertical-align:top;" alt="spotify link"></a>
       </div>`;
 
 header_element = document.getElementById("imsiyudt_header");
