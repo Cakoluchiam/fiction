@@ -1,0 +1,38 @@
+name: Mirror IMSIYUDT to standalone repo
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'fiction/Planecrash/IMSIYUDT/**'
+  workflow_dispatch: {}   # lets you trigger it manually too
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source repo
+        uses: actions/checkout@v4
+
+      - name: Checkout target repo
+        uses: actions/checkout@v4
+        with:
+          repository: cakoluchiam/imsiyudt
+          token: ${{ secrets.MIRROR_TOKEN }}
+          path: imsiyudt-target
+
+      - name: Sync content
+        run: |
+          rsync -av --delete \
+            --exclude='.git' \
+            fiction/Planecrash/IMSIYUDT/ imsiyudt-target/
+          echo "imsiyudt.com" > imsiyudt-target/CNAME
+
+      - name: Commit and push
+        working-directory: imsiyudt-target
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "Mirror update from cakoluchiam.github.io"
+          git push
